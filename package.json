@@ -1,0 +1,18 @@
+{
+  "name": "simple-cli",
+  "version": "1.0.0",
+  "description": "Simple CLI helper tool in NodeJS for quick access or memorize thing",
+  "main": "bin/index.js",
+  "bin": {
+    "hey": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-decode": "^3.1.2",
+    "yargs": "^17.0.1"
+  }
+}
