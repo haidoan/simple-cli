@@ -1,12 +1,17 @@
 # Personal cli helper
-Simple nodejs cli helper
+Simple nodejs Cli helper
+
+
+![alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFjNzU5YjFhZDZjNDc5MTE5ZTA1MTA1OWEzMDM4ZGFhZjdiMDJhMSZjdD1n/CvpnHtNHITbpVBPxHo/giphy.gif "Logo Title Text 1")
+
+
 
 ## Why ?
-save time for quick access or do simple thing.
+Save time for quick access or do simple thing.
 ## What it can do ?
-- decode jwt token
-- find and access notes (TODO)
-- quick write a note (TODO)
+- Decode jwt token
+- Find and access notes (TODO)
+- Quick write a note (TODO)
 ## Install
 - install global : access `simple-cli` folder and run `sudo npm i -g .`
 - uninstall global : run `npm uninstall -g simple-cli`
