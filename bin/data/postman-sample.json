@@ -1,0 +1,40 @@
+{
+    "info": {
+        "_postman_id": "aaab46ee-9d16-4e92-aeaa-25a7e431667c",
+        "name": "haidoan",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "211016"
+    },
+    "item": [
+        {
+            "name": "hello world",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"email\": \"okla.vn\",\n  \"organizationId\": \"12\""
+                },
+                "url": {
+                    "raw": "https://api.test.com",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "test",
+                        "com"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

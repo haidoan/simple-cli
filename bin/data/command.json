@@ -1,0 +1,58 @@
+[
+    {
+        "command": "t",
+        "content": {
+            "description": "decode jwt token",
+            "required": false,
+            "alias": "token"
+        }
+    },
+    {
+        "command": "m",
+        "content": {
+            "description": "get resola m2m token",
+            "required": false,
+            "alias": "m2m"
+        }
+    },
+    {
+        "command": "e",
+        "content": {
+            "description": "execute function with index",
+            "required": false,
+            "alias": "exec"
+        }
+    },
+    {
+        "command": "l",
+        "content": {
+            "description": "list all api by env, default all. example: 'hey -l dev'",
+            "required": false,
+            "alias": "ls"
+        }
+    },
+    {
+        "command": "f",
+        "content": {
+            "description": "find any api with its name, example: `hey -f m2m'",
+            "required": false,
+            "alias": "find"
+        }
+    },
+    {
+        "command": "s",
+        "content": {
+            "description": "show info of request by index, example: `hey -s 1",
+            "required": false,
+            "alias": "show"
+        }
+    },
+    {
+        "command": "c",
+        "content": {
+            "description": "convert api to curl command, example: `hey -c 1",
+            "required": false,
+            "alias": "curl"
+        }
+    }
+]
