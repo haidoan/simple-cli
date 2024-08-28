@@ -6,7 +6,19 @@ Simple nodejs Cli helper
 
 
 ## How to use
-export postmand api file into the folder `./data/postman.json`
+- install
+  - export postman api collection to the `postman.json` file in the folder `./data`
+  - install global : access `simple-cli` folder and run `sudo npm i -g .`
+- use
+  - hey -h
+  - hey -t JWT_TOKEN
+  - hey -l 
+  - hey -f API_NAME
+  - hey -e API_INDEX
+
+Tips : You can 
+- list all globally installed Node.js modules using `npm ls -g --depth=0`
+- uninstall global : run `npm uninstall -g simple-cli`
 
 ## Why ?
 Save time for quick access or do simple thing example quick access api call from postman or decode jwt token
@@ -15,11 +27,6 @@ Save time for quick access or do simple thing example quick access api call from
 - Show and execute api from postman collection
 - Find and access notes (TODO)
 - Quick write a note (TODO)
-## Install
-- install global : access `simple-cli` folder and run `sudo npm i -g .`
-- uninstall global : run `npm uninstall -g simple-cli`
-
-Tips : You can list all globally installed Node.js modules using `npm ls -g --depth=0`
 
 ## Usage
 decode jwt token

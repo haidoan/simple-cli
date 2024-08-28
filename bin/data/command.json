@@ -8,14 +8,6 @@
         }
     },
     {
-        "command": "m",
-        "content": {
-            "description": "get resola m2m token",
-            "required": false,
-            "alias": "m2m"
-        }
-    },
-    {
         "command": "e",
         "content": {
             "description": "execute function with index",
